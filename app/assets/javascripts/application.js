@@ -11,4 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require active_storage_drag_and_drop
+//= requiere active_storage
 //= require_tree .
