@@ -1,5 +1,6 @@
 class Report < ApplicationRecord
   has_one_attached :file
-  validates_presence_of :file
+  validates :file, attached: true
+  validates :title, presence: true
 
 end

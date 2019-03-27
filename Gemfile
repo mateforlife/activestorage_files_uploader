@@ -30,6 +30,7 @@ gem 'devise'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'active_storage_drag_and_drop'
+gem 'active_storage_validations'
 gem 'figaro'
 gem 'aws-sdk-s3', require: false
 # Use Capistrano for deployment
